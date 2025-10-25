@@ -82,8 +82,8 @@ rustup target add wasm32v1-none
 ### Clonar el Repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/token_bdb.git
-cd token_bdb
+git clone https://github.com/TU_USUARIO/token-bdb.git
+cd token-bdb
 ```
 
 ### Instalar Dependencias
@@ -97,7 +97,7 @@ cargo build
 
 ## 📁 Estructura del Proyecto
 ```
-token_bdb/
+token-bdb/
 ├── Cargo.toml           # Configuración del proyecto y dependencias
 ├── .gitignore           # Archivos ignorados por Git
 ├── README.md            # Este archivo
