@@ -101,6 +101,7 @@ token_bdb/
 ├── Cargo.toml           # Configuración del proyecto y dependencias
 ├── .gitignore           # Archivos ignorados por Git
 ├── README.md            # Este archivo
+├── screenshots          # Contiene las capturas de pantalla que demuestran lo que fue hecho
 └── src/
     ├── lib.rs           # Contrato principal + trait TokenTrait
     ├── errors.rs        # Enum de errores customizados (9 tipos)
