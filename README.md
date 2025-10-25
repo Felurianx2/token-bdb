@@ -124,7 +124,7 @@ token-bdb/
 stellar contract build
 
 # Archivo generado:
-# target/wasm32v1-none/release/token_bdb.wasm
+# target/wasm32v1-none/release/token-bdb.wasm
 ```
 
 ### Deploy en Testnet
@@ -146,7 +146,7 @@ stellar keys fund alice --network testnet
 
 ```bash
 stellar contract deploy \
-  --wasm target/wasm32v1-none/release/token_bdb.wasm \
+  --wasm target/wasm32v1-none/release/token-bdb.wasm \
   --source alice \
   --network testnet
 ```
